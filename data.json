@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "A random quote gets printed to the screen every 10 seconds or sooner if 'next quote' button was clicked",
+      "technologies": ["css", "html", "javascript"],
+      "live_link": "",
+      "github_link":"https://github.com/jvazquez34139/Random-Quotes-TDP1",
+      "image_urls": ["thumbnail.png","00.png","01.png","02.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination",
+      "description": "An html list of students reduced to just 10 items per page displaying a page navigation set of buttons at the bottom. Includes a search filter.",
+      "technologies": ["jquery","javascript","html","css"],
+      "live_link": "",
+      "github_link":"https://github.com/jvazquez34139/Pagination-Links-TTU2P",
+      "image_urls": ["thumbnail.png","00.png","01.png","02.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive form",
+      "description": "a programming convention activites form, requiring several fields to be filled out before submission is allowed. client-side",
+      "technologies": ["javascript","html","css"],
+      "live_link": "",
+      "github_link":"https://github.com/jvazquez34139/Interactive-form-TTU3P",
+      "image_urls": ["thumbnail.png","00.png","01.png","02.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Word Guess Game",
+      "description": "Hitting start game opens up a screen with a hidden phrase with an on-screen keyboard. given 5 chances to guess the letters in the phrase or the phrase it self",
+      "technologies": ["javascript","html","css"],
+      "live_link": "",
+      "github_link":"https://github.com/jvazquez34139/OOP-game-TTU4P",
+      "image_urls": ["thumbnail.png","00.png","01.png","02.png"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API AJAX Request",
+      "description": "a client-side AJAX request, using jquery's AJAX function. Gathering 12 random employee names, locations, and other info. Provides a search filter. Clicking on the employee card displays a window with more info on the employee",
+      "technologies": ["jquery","javascript","html","css"],
+      "live_link": "",
+      "github_link":"https://github.com/jvazquez34139/Public-API-Req-TTU5P",
+      "image_urls": ["thumbnail.png","00.png","01.png","02.png"]
+    }
+  ]
+}

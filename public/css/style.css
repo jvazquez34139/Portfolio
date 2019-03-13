@@ -54,6 +54,8 @@ a:hover{
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+  width: 1200px;
+  height: 550px;
 }
 
 .portfolio-me{
@@ -114,6 +116,14 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+  }
+  .proj-thumb{
+    width: 347px;
+    height: 347px;
+  }
+  .profile{
+    width: 230px;
+    height: 150px;
   }
 
   .portfolio-index a{
