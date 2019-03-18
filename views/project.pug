@@ -8,15 +8,16 @@ block content
       .cell.small-6.medium-9.large-9
         h1 #{project.project_name}
         
-        p.lead.text-light
+        p.lead.text-lighter
           | #{project.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Technologies
+        .sc
+          h6 Technologies
 
-        ul
-          each tech in project.technologies
-            li= tech
+          ul
+            each tech in project.technologies
+              li= tech
 
         a.button.expanded(href=`${project.live_link}`) Live Demo
         a.button.expanded(href=`${project.github_link}`) GitHub Repo
@@ -24,7 +25,7 @@ block content
     each image in project.image_urls
       if image != "thumbnail.png"
         if project.id <= 9
-          img.image(src=`../static/images/proj0${project.id}/${image}`)
+          img.image.portfolio-index(src=`../static/images/proj0${project.id}/${image}`)
         else
           //- default
-          img.image(src=`../static/images/proj${project.id}/${image}`)
+          img.image.portfolio-index(src=`../static/images/proj${project.id}/${image}`)

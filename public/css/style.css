@@ -35,6 +35,9 @@ h1{
 .text-light{
   color: #666;
 }
+.text-lighter{
+  color: #aaa;
+}
 
 .button{
   background-color: #333;
@@ -45,11 +48,11 @@ h1{
 }
 
 a{
-  color: #444;
+  color: #666;
 }
 
 a:hover{
-  color: #222;
+  color: #999;
 }
 
 .image{
@@ -108,7 +111,7 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
-  background-color: #cccccc;
+  background-color: #006699;
 }
 
 .portfolio-intro p{
@@ -119,7 +122,8 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
-  background-color: #006699;
+  background-color: #cccccc;
+
 }
 
   .portfolio-index .thumbnail{
@@ -149,6 +153,7 @@ a:hover{
 
 .portfolio-meta{
   padding-left: 20px;
+  background-color: #996699;
 }
 
   .portfolio-meta .button{
@@ -165,5 +170,15 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+    line-height: 1.5em;
+    background-color: #cccccc;
+    margin-left: -50px;
+    height: 200px;
+}
+.sc{
+  background-color: #cccccc;
+}
+.sc h6{
+  background-color: black;
+  color: #cccccc;
 }
